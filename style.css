@@ -27,11 +27,28 @@ header{
 .nav-item .nav-link {
     color: #fff;
     font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 5px;
+   
 }
-.navbar button{
+.navbar .navbar-nav .btn{
     font-family: Verdana, Arial, Helvetica, sans-serif;
     border-radius: 30px;
     background-color: #ee626b;
+    color: #fff;
+}
+@media screen and (max-width: 658px) {
+    .navbar .navbar-nav .btn{
+        border-radius: 0px;
+     background-color: white;
+     color: #111;
+    }
+    .navbar-nav{
+        background-color: #fff;
+        }
+        .nav-item .nav-link {
+            color: #111;
+        }
 }
 .nav-item a:hover{
     color: #fff;
@@ -41,6 +58,8 @@ header{
     padding-right: 20px;
 
 }
+
+
 
 /* main-banner */
 .main-banner{
@@ -104,11 +123,19 @@ header{
 }
 .main-banner img{
     width: 100%;
-    border-radius: 20px;
+    border-radius: 30px;
     margin-bottom: 15%;
 }
-.main-banner .col-md-4{
+.main-banner .col-lg-4{
  margin-left: 16%;
+}
+@media screen and (max-width: 658px) {
+    .main-banner .col-lg-4{
+        margin-left: 3%;
+       }
+       .main-banner img{
+        width: 90%;
+    }
 }
 .main-banner .right-image{
     position: relative;
