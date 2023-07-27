@@ -504,6 +504,16 @@ margin-left: 35%;
     color: #fff;
     cursor: pointer;
   }
+ @media screen and (max-width: 658px) {
+   .section-5 .search-container button {
+        right: 0px;
+        padding: 10px 5px;
+      }
+      .search-container input {
+        width: 100%;
+      }
+      
+}
 
   @media screen and (max-width: 998px) {
     .section-content img{
