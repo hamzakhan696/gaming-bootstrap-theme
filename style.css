@@ -18,7 +18,12 @@ header{
    
 
 }
-
+/* .navbar {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+   
+    } */
 .nav-item .nav-link {
     color: #fff;
     font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -88,10 +93,19 @@ header{
     background-color: #008af8;
     transition: 1s ease;
   }
-
+  @media screen and (max-width: 658px) {
+    .search-container button {
+        right: 1px;
+      }
+      .search-container input {
+        width: 100%;
+      }
+      
+}
 .main-banner img{
     width: 100%;
-    border-radius: 30px;
+    border-radius: 20px;
+    margin-bottom: 15%;
 }
 .main-banner .col-md-4{
  margin-left: 16%;
