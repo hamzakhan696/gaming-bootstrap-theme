@@ -4,6 +4,7 @@
 }
 body{
         font-family: Verdana, Arial, Helvetica, sans-serif;
+        overflow: hidden;
     }
 h1,h2,h3,h4,h5,h6{
         font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -31,6 +32,12 @@ header{
     margin: 5px;
    
 }
+/* .navbar-toggler{
+    color: #fff !important;
+  }
+  .navbar span{
+    color: #fff;
+  } */
 .navbar .navbar-nav .btn{
     font-family: Verdana, Arial, Helvetica, sans-serif;
     border-radius: 30px;
