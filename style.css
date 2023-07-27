@@ -29,7 +29,6 @@ header{
     color: #fff;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     text-align: center;
-    margin: 5px;
    
 }
 /* .navbar-toggler{
@@ -49,6 +48,9 @@ header{
         border-radius: 0px;
      background-color: white;
      color: #111;
+    }
+    .nav-item .nav-link {
+       margin: 6px;
     }
     .navbar-nav{
         background-color: #fff;
