@@ -54,6 +54,7 @@ header{
     }
     .navbar-nav{
         background-color: #fff;
+        border-radius: 10px;
         }
         .nav-item .nav-link {
             color: #111;
@@ -377,7 +378,7 @@ line-height: 90px;
     background-color: #fff;
     overflow: hidden;
     border-radius: 25px;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .section-3 .item img{
@@ -432,7 +433,7 @@ line-height: 90px;
     position: relative;
     border-radius: 25px;
     text-align: center;
-    margin-bottom: 30px;
+
 }
 .section-4 .item .thumb{
     position: relative;
@@ -460,25 +461,26 @@ margin-left: 35%;
 .section-5 .shop
 {
     background-color: #f7f7f7;
-    padding: 80px 60px;
+    padding: 20px 50px;
     border-radius: 10%;
    
 
 }
 .shop h6,.newsletter h6{
     color: #ee626b;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
+    
 }
 
 .shop h2,.newsletter h2{
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 800;
 }
 .shop p,.newsletter p{
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 .shop button{
     color: #fff;
@@ -505,11 +507,11 @@ margin-left: 35%;
     cursor: pointer;
   }
  @media screen and (max-width: 658px) {
-   .section-5 .search-container button {
+   .newsletter .search-container button {
         right: 0px;
         padding: 10px 5px;
       }
-      .search-container input {
+      .newsletter .search-container input {
         width: 100%;
       }
       
