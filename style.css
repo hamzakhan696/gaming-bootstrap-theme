@@ -16,8 +16,6 @@ header{
     height: 100%;
    border-bottom-left-radius: 20%;
    border-bottom-right-radius: 20%;
-   
-
 }
 /* .navbar {
     position: fixed;
@@ -194,6 +192,7 @@ header{
 /* feature */
 .features{
     margin-top: -80px;
+    margin-bottom: 90px;
 }
 .features .image{
 width: 90px;
@@ -214,6 +213,11 @@ line-height: 90px;
     border-radius: 25px;
     background-color: #fff;
     text-align: center;
+}
+.features .item h4{
+    font-size: 17px;
+   
+    text-transform: uppercase;
 }
 
 /* trending section */
@@ -508,11 +512,17 @@ margin-left: 35%;
   }
  @media screen and (max-width: 658px) {
    .newsletter .search-container button {
-        right: 0px;
-        padding: 10px 5px;
+        right: 7px;
+        padding: 12px 68px;
+        margin-top: 10px;
+        margin-bottom: 10px;
       }
       .newsletter .search-container input {
         width: 100%;
+      }
+      .newsletter .search-container {
+        display: flex;
+        flex-direction: row;
       }
       
 }
