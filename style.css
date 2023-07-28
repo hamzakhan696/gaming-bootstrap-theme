@@ -602,7 +602,7 @@ line-height: 90px;
  @media screen and (max-width: 658px) {
    .newsletter .search-container button {
         right: 7px;
-        padding: 11px 60px;
+        padding: 11px 62px;
         margin-top: 10px;
         margin-bottom: 10px;
       }
