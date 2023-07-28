@@ -345,7 +345,7 @@ line-height: 90px;
 }
 .item-content h4{
     font-size: 18px;
-    font-size: 600;
+    font-weight: bold;
 }
 .item-content .fa{
     display: inline-block;
@@ -388,7 +388,7 @@ line-height: 90px;
 }
 .section-3 h2{
     font-size: 36px;
-    font-weight: 700;
+    font-weight: bold;
     text-transform: capitalize;
     margin-top: 20px;
     line-height: 44px;
