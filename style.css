@@ -78,7 +78,7 @@ h1,h2,h3,h4,h5,h6{
         }
         .first-item .nav-link{
             color: #ee626b;
-            border-bottom: 1px #111 ;
+          border-top: none ;
         }
 }
 .nav-item a:hover{
