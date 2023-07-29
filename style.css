@@ -238,6 +238,7 @@ h1,h2,h3,h4,h5,h6{
     width: 75%;
     border: none;
     border-radius: 30px;
+    margin-left: -2px;
   }
   .search-container input::placeholder {
     padding-left: 12px;
