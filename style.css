@@ -322,7 +322,9 @@ h1,h2,h3,h4,h5,h6{
        }
        .right-image img{
         width: 90%;
-        border-radius: 30px;
+        border-radius: 8%;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
     }
 }
 .main-banner .right-image{
