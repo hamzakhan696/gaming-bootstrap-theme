@@ -808,6 +808,13 @@ line-height: 90px;
              
            }
         }
+        @media screen and (max-width: 468px) {
+            .newsletter .search-container button {
+               
+                 width: 91%;
+                 
+               }
+            }
 
  
  
