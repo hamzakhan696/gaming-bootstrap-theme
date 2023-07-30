@@ -111,6 +111,21 @@ h1,h2,h3,h4,h5,h6{
          padding-top: 5%;
         }
     }
+    @media(max-width:992px){
+        .navbar-collapse  {
+          
+          padding: 10px 20px;
+          box-shadow: 0 15px 20px 0 rgba(0,0,0,.5);
+          position: absolute;
+          z-index: 100;
+          top: 100%;
+          background-color: #fff;
+          width: 80%;
+          overflow-y: scroll;
+          margin-left: 5%;
+         
+      }
+    }
    
 .navbar .nav-item .nav-link {
     color: #fff;
@@ -208,7 +223,7 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: 0.5px;
     margin-top:2%;
 }
-@media screen and (max-width: 658px) {
+@media screen and (max-width: 992px) {
     .banner-content h6{
         margin-top:40%;
         text-align: center;
@@ -249,11 +264,18 @@ h1,h2,h3,h4,h5,h6{
   /* Style the input field */
   .search-container input {
     padding: 12px ;
-    width: 75%;
+    width: 90%;
     border: none;
     border-radius: 30px;
-    margin-left: -2px;
+   
   }
+  @media screen and (max-width: 767px) {
+    .search-container input {
+        width: 75%;
+        margin-left: -3px;
+      }
+  }
+
   .search-container input::placeholder {
     padding-left: 12px;
     font-size: 14px;
@@ -263,7 +285,7 @@ h1,h2,h3,h4,h5,h6{
   /* Style the button */
   .search-container button {
     position: absolute;
-    right: 25%;
+    right: 9%;
     top: 0;
     padding: 12px 37px;
     border: none;
@@ -293,7 +315,7 @@ h1,h2,h3,h4,h5,h6{
 .main-banner .col-lg-4{
  margin-left: 16%;
 }
-@media screen and (max-width: 658px) {
+@media screen and (max-width: 992px) {
     .main-banner .col-lg-4{
         margin-left: 3%;
        }
@@ -332,8 +354,20 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
     line-height: 100px;
 }
-
-@media screen and (max-width: 658px) {
+@media screen and (max-width: 992px) {
+    .main-banner .right-image .offer{
+        left: -20px;
+        bottom: 140px;
+  }
+  .main-banner.right-image{
+    border-radius: 30%;
+  }
+  .main-banner .right-image .price{ 
+    right: 90px;
+    top: 52px;
+}
+}
+@media screen and (max-width: 768px) {
     .main-banner .right-image .offer{
         left: 10px;
         bottom: 100px;
