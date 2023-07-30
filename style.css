@@ -286,9 +286,9 @@ h1,h2,h3,h4,h5,h6{
   /* Style the button */
   .search-container button {
     position: absolute;
-    right: 9%;
+    right: 7%;
     top: 0;
-    padding: 12px 37px;
+    padding: 12px 30px;
     border: none;
     border-radius: 30px;
     background-color: #ee626b;
@@ -300,13 +300,9 @@ h1,h2,h3,h4,h5,h6{
     transition: 1s ease;
   }
   @media screen and (max-width: 658px) {
-    .search-container button {
-        right: 1px;
+    .search-container input {
+       margin-left: 2%;
       }
-      .search-container input {
-        width: 100%;
-      }
-      
 }
  .right-image img{
     width: 100%;
@@ -510,7 +506,7 @@ line-height: 90px;
     font-weight: bold;
 }
 @media screen and (max-width: 992px) {
-    .section-2 h6,.section-2 h2{
+    .section-2 h6,.section-2 h4{
         text-align: center;
     }
     
