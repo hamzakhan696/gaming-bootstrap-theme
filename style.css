@@ -517,7 +517,7 @@ line-height: 90px;
     font-weight: bold;
 }
 @media screen and (max-width: 992px) {
-    .section-2 h6,.section-2 h4{
+    .section-2 h6,.section-2 h2{
         text-align: center;
     }
     
